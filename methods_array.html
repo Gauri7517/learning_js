@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=["gauri","kriti","prita","pratiksha"];
+        document.write(a+"<br>");
+        a[2]="Mishti";
+        document.write(a+"<br>");
+        delete a[3];
+        document.write(a+"<br>");
+        a.splice(3,1); 
+        document.write(a+"<br>");
+
+    </script>
+ 
+    <script>
+//sort and reverse
+var a=["Minal","Gauri","Sanika","Diksha","Krushna"];
+document.write(a+"<br>");
+a.sort();
+document.write(a+"<br>")
+a.reverse();
+document.write(a+"<br>")
+
+
+    </script>
+<script>
+//sort and reverse
+var a=["Minal","Gauri","Sanika","Diksha","Krushna"];
+document.write(a+"<br>");
+a.pop();
+a.pop()
+document.write(a+"<br>")
+a.push("Gargi");
+a.push("Kajal");
+a.push("Arti");
+document.write(a+"<br>")
+</script>
+
+<script>
+//shift and unshift
+var a=["Minal","Gauri","Sanika","Diksha","Krushna"];
+document.write(a+"<br>");
+a.shift();
+a.shift()
+document.write(a+"<br>")
+a.unshift("Gargi");
+a.unshift("Kajal");
+a.shift("Arti");
+document.write(a+"<br>")
+</script>
+
+<script>
+    var a=["Minal","Gauri","Sanika","Diksha","Krushna"];
+    var b=["Minal","Gauri","Sanika","Diksha","disha"];
+    var z=["Minal","Gauri","Sanika","Diksha","kanika"];
+    var c=a.concat(b,z);
+    document.write(c+"<br>")
+    var d=c.join("/");
+     document.write(d+"<br>")
+
+
+</script>
+</body>
